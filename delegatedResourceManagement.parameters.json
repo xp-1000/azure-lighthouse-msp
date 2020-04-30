@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspName": {
+            "value": "Claranet Limited"
+        },
+        "mspOfferDescription": {
+            "value": "Claranet MSP"
+        },
+        "managedByTenantId": {
+            "value": "xxx-change-me-yyyy"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "aaaa-bbbb-cccc",
+                    "principalIdDisplayName": "Claranet-DevOps-Team",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+                },
+                {
+                    "principalId": "aaaa-xxxx-yyyy",
+                    "principalIdDisplayName": "Claranet-Readers",
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+                }
+            ]
+        }
+    }
+}

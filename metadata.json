@@ -1,0 +1,9 @@
+{
+    "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+    "itemDisplayName": "Azure Lighthouse - MSP trust",
+    "description": "This template provisions Azure Lighthouse relationship.",
+    "summary": "This template provisions Azure Lighthouse relationship with Claranet by default.",
+    "githubUsername": "Shr3ps",
+    "dateUpdated": "2020-04-30",
+    "type": "SubscriptionDeployment"
+}
